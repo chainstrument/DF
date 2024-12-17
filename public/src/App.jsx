@@ -1,5 +1,5 @@
- import { Header } from './Components/Header'
- 
+ import { Header } from './components/Header'
+ import { Button } from './components/Button'
 
 function App() {
    
@@ -7,6 +7,7 @@ function App() {
   return (
     <>
        <Header />
+       <Button />
     </>
   )
 }
